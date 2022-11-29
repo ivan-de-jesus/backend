@@ -6,7 +6,8 @@ const AddStudentSchema = new Schema({
    gradus: String,
    group: String,
    age: Number,
-   pass: String
+   pass: String,
+   assignedExercise: Boolean
 })
 
 module.exports = model('students', AddStudentSchema);
